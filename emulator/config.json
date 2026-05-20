@@ -1,0 +1,36 @@
+{
+  "targetUrl": "http://localhost:7071/api/ingest",
+  "durationSeconds": 30,
+  "sensors": [
+    {
+      "deviceId": "temp-001",
+      "sensorType": "temperature",
+      "unit": "C",
+      "intervalMs": 20,
+      "location": {
+        "lat": 49.8397,
+        "lng": 24.0297
+      }
+    },
+    {
+      "deviceId": "humidity-001",
+      "sensorType": "humidity",
+      "unit": "%",
+      "intervalMs": 50,
+      "location": {
+        "lat": 49.8397,
+        "lng": 24.0297
+      }
+    },
+    {
+      "deviceId": "light-001",
+      "sensorType": "light",
+      "unit": "lux",
+      "intervalMs": 100,
+      "location": {
+        "lat": 49.8397,
+        "lng": 24.0297
+      }
+    }
+  ]
+}
