@@ -1,0 +1,1278 @@
+[
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 29.38,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.577Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 27.12,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.610Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 69.37,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.612Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 424.67,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.654Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 29.64,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.639Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 19.39,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.659Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 62.53,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.663Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 25.37,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.685Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 25.19,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.717Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 43.41,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.719Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 22.21,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.748Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 409.64,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.753Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 24.75,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.780Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 59.29,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.782Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 21.72,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.812Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 43.49,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.843Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 29.19,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.843Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 452.54,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.858Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 23.89,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.863Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 28.67,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.888Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 73.6,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.893Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 20.13,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.920Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 22.84,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.951Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 57.89,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.952Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 758.61,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.959Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 25.4,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:21:59.989Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 74.27,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.007Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 20.09,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.012Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 21.15,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.039Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 55.07,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.072Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 364.27,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.073Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 27.49,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.075Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 25.16,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.108Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 48.51,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.124Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 18.16,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.129Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 27.31,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.155Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 256.65,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.174Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 75.63,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.174Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 27.93,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.175Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 18.92,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.207Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 76.84,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.226Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 21.7,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.227Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 24.24,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.257Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 240.48,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.289Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 78.15,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.290Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 25.71,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.291Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 23.61,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.321Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 63.9,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.352Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 28.55,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.353Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 27.17,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.384Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 768.3,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.389Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 76.88,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.415Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 28.38,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.416Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 23.95,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.446Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 52.9,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.478Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 28.14,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.479Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 635.51,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.493Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 25.24,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.508Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 42.28,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.540Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 25.88,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.541Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 22.46,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.575Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 59.36,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.591Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 527.98,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.593Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 20.06,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.596Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 18.41,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.623Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 46.94,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.654Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 23.07,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.656Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 19.88,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.685Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 392.61,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.701Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 63.41,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.706Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 28.46,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.707Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 19.66,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.733Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 23.79,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.763Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 62.48,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.764Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 18.47,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.795Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 289.69,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.801Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 74.29,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.826Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 19.15,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.826Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 20.99,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.872Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 63.28,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.878Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 23.66,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.904Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 389.68,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.905Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 18.58,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.936Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 47.52,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.937Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 20.53,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.967Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 46.73,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.989Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 27.36,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:00.990Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 441.86,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.005Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 22.93,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.010Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 29.13,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.039Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 65.46,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.040Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 24.3,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.071Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 59.21,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.092Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 28.79,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.093Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 865.62,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.107Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 24.28,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.124Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 61.74,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.156Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 20.32,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.157Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 25.6,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.188Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 53.6,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.208Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 236.18,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.209Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 21.31,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.209Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 21.94,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.240Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 48.27,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.272Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 28.54,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.273Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 19.67,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.304Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 684.63,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.309Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 71.01,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.324Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 23.12,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.325Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 22.55,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.356Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 55.84,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.388Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 28.96,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.389Z"
+  },
+  {
+    "deviceId": "light-001",
+    "sensorType": "light",
+    "value": 945.57,
+    "unit": "lux",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.420Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 22.64,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.421Z"
+  },
+  {
+    "deviceId": "humidity-001",
+    "sensorType": "humidity",
+    "value": 46.47,
+    "unit": "%",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.452Z"
+  },
+  {
+    "deviceId": "temp-001",
+    "sensorType": "temperature",
+    "value": 22.38,
+    "unit": "C",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    },
+    "timestamp": "2026-05-20T15:22:01.453Z"
+  }
+]
