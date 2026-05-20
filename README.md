@@ -1,30 +1,82 @@
-\# Cloud Lab 3 — IoT Serverless Pipeline
-
-
+# Cloud Lab 3 — IoT Serverless Pipeline
 
 This project implements an IoT data processing pipeline using cloud serverless technologies.
 
+## Goal
 
+The goal of this lab is to emulate IoT sensor data processing in the cloud using serverless services.
 
-\## Architecture
+The system receives data from simulated IoT sensors, sends messages to a cloud messaging service, processes them with serverless functions, stores them in a database, and provides an HTTP endpoint for reading sensor history.
 
+## Architecture
 
+IoT Sensor Emulator  
+→ IoT Hub / Event Hub  
+→ Azure Function Consumer  
+→ Cosmos DB  
+→ HTTP History API
 
-IoT Sensor Emulator → Queue/Event Hub → Serverless Function → Database → History API
+## Components
 
+### 1. IoT Sensor Emulator
 
+The emulator simulates three different sensors:
 
-\## Main components
+- temperature sensor
+- humidity sensor
+- light sensor
 
+Each sensor sends:
 
+- device id
+- sensor type
+- measured value
+- unit
+- location
+- timestamp
 
-\- IoT sensor emulator
+Each sensor has its own configurable sending interval.
 
-\- Cloud queue or event stream
+### 2. Messaging Layer
 
-\- Serverless processing function
+Sensor data is sent to a cloud messaging service.
 
-\- Database for sensor history
+In this project, the infrastructure is prepared for:
 
-\- REST API endpoint for reading historical sensor data
+- Azure IoT Hub
+- Event Hub-compatible endpoint
 
+This layer works as a buffer between devices and processing functions.
+
+### 3. Serverless Processing
+
+Azure Functions are used to process incoming sensor messages.
+
+The function is triggered when new telemetry data appears in the event stream.
+
+Processing logic:
+
+1. receive message
+2. parse JSON payload
+3. detect sensor type
+4. validate data
+5. store reading in Cosmos DB
+
+### 4. Database
+
+Cosmos DB is used to store sensor telemetry history.
+
+Example record:
+
+```json
+{
+  "deviceId": "temp-001",
+  "sensorType": "temperature",
+  "value": 24.7,
+  "unit": "C",
+  "location": {
+    "lat": 49.8397,
+    "lng": 24.0297
+  },
+  "timestamp": "2026-05-18T12:00:00.000Z"
+}
