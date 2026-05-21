@@ -1,82 +1,200 @@
-# Cloud Lab 3 — IoT Serverless Pipeline
+# Cloud Lab 3 — IoT Sensor Data Processing with Serverless Azure Technologies
 
-This project implements an IoT data processing pipeline using cloud serverless technologies.
+## Overview
 
-## Goal
+This project implements an IoT telemetry processing pipeline using Azure serverless services.
 
-The goal of this lab is to emulate IoT sensor data processing in the cloud using serverless services.
+The solution simulates multiple IoT sensors, sends telemetry data through REST APIs, processes messages with Azure Functions, and stores telemetry history in Azure Cosmos DB.
 
-The system receives data from simulated IoT sensors, sends messages to a cloud messaging service, processes them with serverless functions, stores them in a database, and provides an HTTP endpoint for reading sensor history.
+---
 
 ## Architecture
 
-IoT Sensor Emulator  
-→ IoT Hub / Event Hub  
-→ Azure Function Consumer  
-→ Cosmos DB  
-→ HTTP History API
+Telemetry processing flow:
 
-## Components
+```text
+IoT Sensor Emulator
+        ↓
+HTTP POST /api/ingest
+        ↓
+Azure Function (ingest)
+        ↓
+Event Hub Consumer (serverless trigger)
+        ↓
+Azure Cosmos DB
+        ↓
+Azure Function /api/history
+```
 
-### 1. IoT Sensor Emulator
+Infrastructure deployment via Bicep:
 
-The emulator simulates three different sensors:
+```text
+IoT Hub
+Event Hub
+Azure Storage Account
+Azure Functions
+Cosmos DB
+```
 
-- temperature sensor
-- humidity sensor
-- light sensor
+---
 
-Each sensor sends:
+## Features
 
-- device id
+### IoT Emulator
+
+The emulator simulates 3 sensor types:
+
+- Temperature sensor
+- Humidity sensor
+- Light sensor
+
+Each sensor includes:
+
+- unique device ID
 - sensor type
-- measured value
-- unit
-- location
+- telemetry value
+- measurement unit
+- GPS coordinates
 - timestamp
 
-Each sensor has its own configurable sending interval.
+Configurable parameters:
 
-### 2. Messaging Layer
+- target URL
+- execution duration
+- request frequency
 
-Sensor data is sent to a cloud messaging service.
+Example frequencies:
 
-In this project, the infrastructure is prepared for:
+- temperature → 20 ms
+- humidity → 50 ms
+- light → 100 ms
+
+---
+
+## Azure Functions
+
+### ingest
+
+HTTP-triggered Azure Function:
+
+```text
+POST /api/ingest
+```
+
+Responsibilities:
+
+- receive telemetry JSON
+- validate request
+- enrich telemetry metadata
+- store records in Cosmos DB
+
+---
+
+### history
+
+HTTP-triggered Azure Function:
+
+```text
+GET /api/history
+```
+
+Supports:
+
+- full telemetry history retrieval
+- filtering by sensor type
+
+Example:
+
+```text
+/api/history?sensorType=temperature
+```
+
+---
+
+### consumer
+
+Event Hub-triggered Azure Function.
+
+Responsibilities:
+
+- listen for telemetry events
+- automatically trigger on new messages
+- process event payloads
+- persist data into Cosmos DB
+
+---
+
+## Azure Infrastructure
+
+Provisioned using:
+
+```text
+infra/main.bicep
+```
+
+Resources:
 
 - Azure IoT Hub
-- Event Hub-compatible endpoint
+- Azure Event Hub
+- Azure Cosmos DB
+- Azure Storage Account
+- Azure Function Apps
 
-This layer works as a buffer between devices and processing functions.
+Cosmos DB structure:
 
-### 3. Serverless Processing
+```text
+Database: DeviceTelemetry
+Container: DeviceTelemetry
+Partition key: /DeviceId
+```
 
-Azure Functions are used to process incoming sensor messages.
+---
 
-The function is triggered when new telemetry data appears in the event stream.
+## Local Testing
 
-Processing logic:
+Run Azure Functions:
 
-1. receive message
-2. parse JSON payload
-3. detect sensor type
-4. validate data
-5. store reading in Cosmos DB
+```bash
+cd cloud-iot
+func start
+```
 
-### 4. Database
+Run sensor emulator:
 
-Cosmos DB is used to store sensor telemetry history.
+```bash
+cd emulator
+node sensor-emulator.js
+```
 
-Example record:
+Manual telemetry test:
 
-```json
-{
-  "deviceId": "temp-001",
-  "sensorType": "temperature",
-  "value": 24.7,
-  "unit": "C",
-  "location": {
-    "lat": 49.8397,
-    "lng": 24.0297
-  },
-  "timestamp": "2026-05-18T12:00:00.000Z"
-}
+```bash
+curl -X POST http://localhost:7071/api/ingest \
+  -H "Content-Type: application/json" \
+  -d "{\"deviceId\":\"temp-001\",\"sensorType\":\"temperature\",\"value\":24.5}"
+```
+
+History:
+
+```text
+http://localhost:7071/api/history
+```
+
+---
+
+## Technologies
+
+- Node.js
+- Azure Functions v4
+- Azure Cosmos DB
+- Azure Event Hub
+- Azure IoT Hub
+- Azure Bicep
+- Axios
+- Azure Functions Core Tools
+
+---
+
+## Educational Goal
+
+The purpose of this laboratory work is to demonstrate a scalable IoT telemetry processing architecture using cloud-native serverless Azure services.
