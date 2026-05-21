@@ -1,8 +1,11 @@
 const { app } = require("@azure/functions");
-const { CosmosClient } = require("@azure/cosmos");
+const { QueueServiceClient } = require("@azure/storage-queue");
 
-const client = new CosmosClient(process.env.COSMOS_CONN);
-const container = client.database("DeviceTelemetry").container("DeviceTelemetry");
+const queueServiceClient = QueueServiceClient.fromConnectionString(
+  process.env.AzureWebJobsStorage
+);
+
+const queueClient = queueServiceClient.getQueueClient("sensor-telemetry");
 
 app.http("ingest", {
   methods: ["POST"],
@@ -12,10 +15,13 @@ app.http("ingest", {
     const body = await request.json();
 
     if (!body) {
-      return { status: 400, jsonBody: { error: "No data" } };
+      return {
+        status: 400,
+        jsonBody: { error: "No data" }
+      };
     }
 
-    const item = {
+    const message = {
       ...body,
       id: `${body.deviceId}-${Date.now()}`,
       DeviceId: body.deviceId,
@@ -23,27 +29,16 @@ app.http("ingest", {
       receivedAt: new Date().toISOString()
     };
 
-    try {
-  await container.items.create(item);
-} catch (error) {
-  context.log("Cosmos error:", error.message);
+    await queueClient.createIfNotExists();
+    await queueClient.sendMessage(Buffer.from(JSON.stringify(message)).toString("base64"));
 
-  return {
-    status: 500,
-    jsonBody: {
-      error: error.message,
-      code: error.code
-    }
-  };
-}
-
-    context.log("Telemetry saved:", item);
+    context.log("Telemetry queued:", message);
 
     return {
       status: 200,
       jsonBody: {
         success: true,
-        id: item.id
+        queued: true
       }
     };
   }
